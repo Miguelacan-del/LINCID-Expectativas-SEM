@@ -1,3 +1,24 @@
-# Build folder and log file
-build/
-build.log
+# Archivos temporales de R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Archivos de caché
+*.cache
+*_cache/
+cache/
+
+# Archivos generados automáticamente
+*.log
+*.aux
+*.tmp
+
+# Archivos de Office pesados que NO deben subirse automáticamente
+~$*.docx
+~$*.xlsx
+*.pdf
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
